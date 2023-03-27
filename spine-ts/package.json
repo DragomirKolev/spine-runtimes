@@ -5,6 +5,7 @@
   "files": [
     "README.md"
   ],
+  "type": "module",
   "scripts": {
     "prepublish": "npm run clean && npm run build",
     "clean": "npx rimraf spine-core/dist spine-canvas/dist spine-webgl/dist spine-phaser/dist spine-player/dist spine-threejs/dist",
